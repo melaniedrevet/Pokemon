@@ -1,0 +1,31 @@
+div {
+    text-align: center;
+    margin-top:80px;
+    margin-bottom:30px;
+}
+mat-tab-group {
+    text-align: center;
+}
+img {
+    margin: 30px;
+}
+.haut {
+    margin-top: 80px;
+}
+.espace {
+    margin-top: 10px;
+}
+
+mat-panel-title {
+    color: white;
+    text-shadow: #942ab2 1px 1px;
+}
+
+mat-panel-title, mat-panel-description, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin-top: 20px;
+    text-align: justify;
+}

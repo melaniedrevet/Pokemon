@@ -1,0 +1,36 @@
+<mat-toolbar class="menu">
+  <div class="logo">
+    <img src="./assets/pokem.gif" alt="" width="60px">
+  </div>
+  <div class="accueil">
+    <button mat-icon-button routerLink="/" color="white">
+      <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+    </button> 
+    <button mat-button routerLink="/characters" color="white">
+      List of Pokemons
+    </button>
+  </div>
+</mat-toolbar>
+  
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+
+<mat-toolbar class="footer">
+  <span>Pokemon</span>
+  <div class="accueil">
+    <button mat-icon-button class="example-icon" onclick="window.location.href = 'https://www.facebook.com/PokemonOfficielFR';" aria-label="Example icon-button with share icon">
+      <img src="./assets/facebook.png">
+    </button>
+    <button mat-icon-button class="example-icon" onclick="window.location.href = 'https://twitter.com/Pokemon';" aria-label="Example icon-button with share icon">
+      <img src="./assets/twitter.png">
+    </button>
+    <button mat-icon-button class="example-icon"  onclick="window.location.href = 'https://www.instagram.com/pokemon/?hl=fr';" aria-label="Example icon-button with share icon" >
+      <img src="./assets/instagram.png">
+    </button>
+    <button mat-icon-button class="example-icon" onclick="window.location.href = 'https://www.youtube.com/user/pokemon';" aria-label="Example icon-button with share icon">
+      <img src="./assets/youtube.png">
+    </button>
+  </div>
+  
+</mat-toolbar>

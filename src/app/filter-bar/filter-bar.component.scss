@@ -1,0 +1,45 @@
+.search-bar {
+    margin-top: 80px;
+    // @include mat-elevation(8);
+  
+.search-bar-field {
+    padding: 0 10px;
+  }
+}
+
+.search-bar-header {
+  display: flex;
+  justify-content: center;
+}
+.filtres {
+  margin-top:30px;
+  display: flex;
+  justify-content: center;
+}
+
+mat-card-title {
+  margin-top:30px;
+  font-size:30px !important;
+  color:white;
+  text-shadow: #942ab2 1px 1px;
+  font-family: 'Merienda One', cursive;
+
+}
+
+p {
+  text-align:center;
+  font-family: 'Merienda One', cursive;
+}
+
+.desc {
+  text-align:center;
+}
+.desc img {
+  width:20px;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+mat-label, mat-option {
+  font-family: 'Montserrat', sans-serif;
+}
